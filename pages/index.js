@@ -40,7 +40,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            JMC Tech
+            JMC Technology
           </Heading>
           <p>Digital Marketing team that creates web and mobile applications. End-to-end software development with faster and secured environment.</p>
         </Box>
