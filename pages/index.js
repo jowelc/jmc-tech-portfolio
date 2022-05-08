@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -34,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, We are full-stack developers based in the Philippines!
+        Hello, we're a group of full-stack developers from the Philippines!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -42,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             JMC Technology
           </Heading>
-          <p>Digital Marketing team that creates web and mobile applications. End-to-end software development with faster and secured environment.</p>
+          <p>A digital software development team that creates websites and mobile applications. It is end-to-end software development in a faster and more secure environment.</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,7 +75,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          We are freelancers and a full-stack developers based in Clark, Pampanga with a passion for building digital services and stuffs. We are capable for all things regarding software development. From planning and designing all the way to solving real-life problems with code. We are a new in freelancing but we have tons of experience in overall software development. {' '}
+        We are freelancers and full-stack developers based in Clark, Pampanga, with a passion for building digital services and pieces of stuff. We are capable of all things regarding software development, from planning and designing to solving real-life problems with code. We are new to freelancing, but we have tons of experience in overall software development.
           <NextLink href="/works/inkdrop" scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>
@@ -85,7 +84,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              Our portfolio
             </Button>
           </NextLink>
         </Box>
@@ -101,11 +100,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          4 years of experience working in full-stack software development
+          4 years of experience working as a full-stack software developer.
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          We got our license in Electronics and Communication Engineering and started working for software development.
+          We got our license in Electronics and Communication Engineering and started working on software development.
         </BioSection>
       </Section>
 
